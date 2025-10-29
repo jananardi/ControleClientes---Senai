@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|c:\\users\\janaine_nardi\\desktop\\janainenardi\\controleclientess\\controleclientess\\clienteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|solutionrelative:controleclientess\\clienteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|c:\\users\\janaine_nardi\\desktop\\janainenardi\\controleclientess\\controleclientess\\clienteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|solutionrelative:controleclientess\\clienteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|c:\\users\\janaine_nardi\\desktop\\janainenardi\\controleclientess\\controleclientess\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|solutionrelative:controleclientess\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|c:\\users\\janaine_nardi\\desktop\\janainenardi\\controleclientess\\controleclientess\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|solutionrelative:controleclientess\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|c:\\users\\janaine_nardi\\desktop\\janainenardi\\controleclientess\\controleclientess\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|solutionrelative:controleclientess\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|c:\\users\\janaine_nardi\\desktop\\janainenardi\\controleclientess\\controleclientess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|solutionrelative:controleclientess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|c:\\users\\janaine_nardi\\desktop\\janainenardi\\controleclientess\\controleclientess\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|solutionrelative:controleclientess\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClienteForm.cs",
+              "DocumentMoniker": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\ClienteForm.cs",
+              "RelativeDocumentMoniker": "ControleClientess\\ClienteForm.cs",
+              "ToolTip": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\ClienteForm.cs",
+              "RelativeToolTip": "ControleClientess\\ClienteForm.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAhwGkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T23:46:40.636Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "ControleClientess\\ClienteRepository.cs",
+              "ToolTip": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\ClienteRepository.cs",
+              "RelativeToolTip": "ControleClientess\\ClienteRepository.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAcwAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T23:25:52.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClienteForm.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\ClienteForm.cs",
+              "RelativeDocumentMoniker": "ControleClientess\\ClienteForm.cs",
+              "ToolTip": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\ClienteForm.cs [Projeto]",
+              "RelativeToolTip": "ControleClientess\\ClienteForm.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T23:44:20.588Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Endereco.cs",
+              "DocumentMoniker": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Endereco.cs",
+              "RelativeDocumentMoniker": "ControleClientess\\Endereco.cs",
+              "ToolTip": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Endereco.cs",
+              "RelativeToolTip": "ControleClientess\\Endereco.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T23:07:00.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Cliente.cs",
+              "RelativeDocumentMoniker": "ControleClientess\\Cliente.cs",
+              "ToolTip": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Cliente.cs",
+              "RelativeToolTip": "ControleClientess\\Cliente.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T23:06:32.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ControleClientess\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\AppDbContext.cs",
+              "RelativeToolTip": "ControleClientess\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T23:48:15.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "ControleClientess\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "ControleClientess\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T23:54:54.834Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
