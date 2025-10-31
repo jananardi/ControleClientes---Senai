@@ -30,6 +30,13 @@
                 clienteExistente.Genero = cliente.Genero;
                 clienteExistente.Estado = cliente.Estado;
                 clienteExistente.Logradouro = cliente.Logradouro;
+                clienteExistente.CEP = cliente.CEP;
+                clienteExistente.UF = cliente.UF;
+                clienteExistente.Bairro = cliente.Bairro;
+                clienteExistente.Estado = cliente.Estado;
+                clienteExistente.Complemento = cliente.Complemento;
+                clienteExistente.Numero = cliente.Numero;
+                clienteExistente.Localidade = cliente.Localidade;
                 _context.SaveChanges();
             }
         }

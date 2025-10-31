@@ -59,6 +59,12 @@ namespace ControleClientess
             txtEmail.Clear();
             cmbGenero.SelectedIndex = -1;
             cmbEstadoCivil.SelectedIndex = -1;
+            txtCEP.Clear();
+            txtBairro.Clear();
+            txtComplemento.Clear();
+            txtLogradouro.Clear();
+            txtNumero.Clear();
+            txtUF.Clear();
             editingId = null;
             gridClientes.ClearSelection();
         }
@@ -83,6 +89,7 @@ namespace ControleClientess
                 e => e.Valor == cliente.Estado);
             txtCEP.Text = cliente.CEP;
             txtComplemento.Text = cliente.Complemento;
+            txtLogradouro.Text = cliente.Logradouro;
             editingId = cliente.Id;
             tcCliente.SelectTab(tpClienteCadastro);
         }

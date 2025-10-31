@@ -100,3 +100,4 @@ C:\Users\janaine_nardi\Desktop\JanaineNardi\ControleClientess\ControleClientess\
 C:\Users\janaine_nardi\Desktop\JanaineNardi\ControleClientess\ControleClientess\obj\Debug\net8.0-windows\ControleClientess.genruntimeconfig.cache
 C:\Users\janaine_nardi\Desktop\JanaineNardi\ControleClientess\ControleClientess\obj\Debug\net8.0-windows\ref\ControleClientess.dll
 C:\Users\janaine_nardi\Desktop\JanaineNardi\ControleClientess\ControleClientess\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\janaine_nardi\Desktop\JanaineNardi\ControleClientess\ControleClientess\obj\Debug\net8.0-windows\ControleClientess.sourcelink.json
