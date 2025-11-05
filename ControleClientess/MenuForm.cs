@@ -9,7 +9,7 @@ namespace ControleClientess
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
@@ -37,6 +37,13 @@ namespace ControleClientess
         private void íconesMinimizadosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             LayoutMdi(MdiLayout.ArrangeIcons);
+        }
+
+        private void cidadeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CidadeForm cidade = new CidadeForm();
+            cidade.MdiParent = this;
+            cidade.Show();
         }
     }
 }

@@ -2,8 +2,10 @@
 
 namespace ControleClientess
 {
-    class Cliente
+    public class Cliente
     {
+        public ICollection<Cliente> Clientes { get; set; } = new List<Cliente>();
+
         public int Id { get; set; }
         public string Nome { get; set; }
         public string Email { get; set; }
@@ -17,5 +19,7 @@ namespace ControleClientess
         public string Bairro { get; set; }
         public string Localidade { get; set; }
         public string UF { get; set; }
+        public int? CidadeId { get; set; }
+        public Cidade Cidade { get; set; }
     }
 }

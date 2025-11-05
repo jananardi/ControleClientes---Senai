@@ -4,6 +4,7 @@ namespace ControleClientess
 {
     class Endereco
     {
+
         [JsonPropertyName("cep")]
         public string CEP { get; set; }
 
@@ -24,5 +25,6 @@ namespace ControleClientess
 
         [JsonPropertyName("UF")]
         public string UF { get; set; }
+
     }
 }

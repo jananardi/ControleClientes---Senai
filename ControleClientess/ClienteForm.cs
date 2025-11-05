@@ -1,5 +1,7 @@
-﻿using System.Runtime.ConstrainedExecution;
+﻿using ControleClientess.Migrations;
+using System.Runtime.ConstrainedExecution;
 using System.Text.Json;
+using static ControleClientess.Endereco;
 
 namespace ControleClientess
 {
@@ -38,11 +40,22 @@ namespace ControleClientess
             cmbEstadoCivil.ValueMember = "Valor";
         }
 
+        private List<Cidade> _cidades;
+        private void CarregarCidades()
+        {
+            var cidadeRepository = new CidadeRepository();
+           // _cidades = cidadeRepository.ListarTodos();
+            cmbCidade.DataSource = _cidades;
+            cmbCidade.DisplayMember = "Nome";
+            cmbCidade.ValueMember = "Id";
+        }
+
         public ClienteForm()
         {
             InitializeComponent();
             CarregarGenero();
             CarregarEstado();
+            CarregarCidades();
             _repository = new ClienteRepository();
             AtualizarGrid();
         }
@@ -65,6 +78,7 @@ namespace ControleClientess
             txtLogradouro.Clear();
             txtNumero.Clear();
             txtUF.Clear();
+            cmbCidade.SelectedIndex = -1;
             editingId = null;
             gridClientes.ClearSelection();
         }
@@ -90,6 +104,12 @@ namespace ControleClientess
             txtCEP.Text = cliente.CEP;
             txtComplemento.Text = cliente.Complemento;
             txtLogradouro.Text = cliente.Logradouro;
+            txtBairro.Text = cliente.Bairro;
+            txtNumero.Text = cliente.Numero;
+            var cidade = _cidades.FirstOrDefault(c => c.Id == cliente.Id);
+            cmbCidade.SelectedItem = cidade;
+            cmbCidade.SelectedItem = cliente.Localidade;
+            txtUF.Text = cliente.UF;
             editingId = cliente.Id;
             tcCliente.SelectTab(tpClienteCadastro);
         }
@@ -98,6 +118,7 @@ namespace ControleClientess
         {
             ItemGenero genero = (ItemGenero)cmbGenero.SelectedItem;
             ItemEstado estado = (ItemEstado)cmbEstadoCivil.SelectedItem;
+            Cidade cidade = (Cidade)cmbCidade.SelectedItem;
             var cliente = new Cliente
             {
                 Nome = txtNome.Text.Trim(),
@@ -106,6 +127,7 @@ namespace ControleClientess
                 Estado = estado.Valor,
                 Bairro = txtBairro.Text.Trim(),
                 CEP = txtCEP.Text.Trim(),
+                CidadeId = cidade.Id,
                 Logradouro = txtLogradouro.Text.Trim(),
                 Complemento = txtComplemento.Text.Trim(),
                 Numero = txtNumero.Text.Trim(),
