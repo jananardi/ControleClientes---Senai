@@ -103,3 +103,4 @@ C:\Users\janaine_nardi\Desktop\JanaineNardi\ControleClientess\ControleClientess\
 C:\Users\janaine_nardi\Desktop\JanaineNardi\ControleClientess\ControleClientess\obj\Debug\net8.0-windows\ControleClientess.sourcelink.json
 C:\Users\janaine_nardi\Desktop\JanaineNardi\ControleClientess\ControleClientess\obj\Debug\net8.0-windows\ControleClientess.ServicoForm.resources
 C:\Users\janaine_nardi\Desktop\JanaineNardi\ControleClientess\ControleClientess\obj\Debug\net8.0-windows\ControleClientess.CidadeForm.resources
+C:\Users\janaine_nardi\Desktop\JanaineNardi\ControleClientess\ControleClientess\obj\Debug\net8.0-windows\ControleClientess.GestaoOrdensForm.resources

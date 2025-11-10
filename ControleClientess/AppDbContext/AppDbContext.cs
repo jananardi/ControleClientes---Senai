@@ -5,6 +5,9 @@ namespace ControleClientess
     class AppDbContext : DbContext
     {
         public DbSet<Cliente> Clientes { get; set; }
+        public DbSet<Servico> Servicos { get; set; }
+        public DbSet<Cidade> Cidades { get; set; }
+        public DbSet<GestaoOrdens> GestaoOrdens { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseNpgsql("Host=localhost;Database=dados;Username=postgres;Password=root");

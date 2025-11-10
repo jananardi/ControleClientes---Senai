@@ -1,6 +1,0 @@
-﻿namespace ControleClientess
-{
-    class ClienteForms
-    {
-    }
-}

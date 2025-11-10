@@ -20,12 +20,13 @@
         {
             return _context.Clientes.Find(id);
         }
-        //public IEnumerable<Cidade> ObterPorNome(string nome)
-        //{
-        //    //return _context.Cidades
-        //    //.Where(c => c.Nome.ToLower().Contains(nome.ToLower()))
-        //    //.ToList();
-        //}
+
+        public IEnumerable<Cidade> ObterPorNome(string nome)
+        {
+            return _context.Cidades
+            .Where(c => c.Nome.ToLower().Contains(nome.ToLower()))
+            .ToList();
+        }
         public void Atualizar(Cliente cliente)
         {
             Cliente clienteExistente = ObterPorId(cliente.Id);

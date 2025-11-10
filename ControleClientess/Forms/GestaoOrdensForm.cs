@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace ControleClientess
 {
-    public partial class CidadeForm: Form
+    public partial class GestaoOrdensForm : Form
     {
-        public CidadeForm()
+        public GestaoOrdensForm()
         {
             InitializeComponent();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
