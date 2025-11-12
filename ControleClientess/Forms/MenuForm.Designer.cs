@@ -33,12 +33,12 @@
             clienteToolStripMenuItem = new ToolStripMenuItem();
             cidadeToolStripMenuItem = new ToolStripMenuItem();
             serviçoToolStripMenuItem = new ToolStripMenuItem();
+            relatóriosToolStripMenuItem = new ToolStripMenuItem();
             janelaToolStripMenuItem = new ToolStripMenuItem();
             cascataToolStripMenuItem = new ToolStripMenuItem();
             ladoALadoHorizontalToolStripMenuItem = new ToolStripMenuItem();
             ladoALadoVerticalToolStripMenuItem = new ToolStripMenuItem();
             íconesMinimizadosToolStripMenuItem = new ToolStripMenuItem();
-            relatóriosToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -77,6 +77,14 @@
             serviçoToolStripMenuItem.Name = "serviçoToolStripMenuItem";
             serviçoToolStripMenuItem.Size = new Size(180, 22);
             serviçoToolStripMenuItem.Text = "Serviço";
+            serviçoToolStripMenuItem.Click += serviçoToolStripMenuItem_Click;
+            // 
+            // relatóriosToolStripMenuItem
+            // 
+            relatóriosToolStripMenuItem.Name = "relatóriosToolStripMenuItem";
+            relatóriosToolStripMenuItem.Size = new Size(180, 22);
+            relatóriosToolStripMenuItem.Text = "Relatórios";
+            relatóriosToolStripMenuItem.Click += relatóriosToolStripMenuItem_Click;
             // 
             // janelaToolStripMenuItem
             // 
@@ -112,12 +120,6 @@
             íconesMinimizadosToolStripMenuItem.Size = new Size(191, 22);
             íconesMinimizadosToolStripMenuItem.Text = "Ícones minimizados";
             íconesMinimizadosToolStripMenuItem.Click += íconesMinimizadosToolStripMenuItem_Click;
-            // 
-            // relatóriosToolStripMenuItem
-            // 
-            relatóriosToolStripMenuItem.Name = "relatóriosToolStripMenuItem";
-            relatóriosToolStripMenuItem.Size = new Size(180, 22);
-            relatóriosToolStripMenuItem.Text = "Relatórios";
             // 
             // MenuForm
             // 

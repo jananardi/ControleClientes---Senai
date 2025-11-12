@@ -28,9 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            tpConsultaCidade = new TabControl();
-            tabPage1 = new TabPage();
-            tpCadastroCidade = new TabPage();
+            tcCidade = new TabControl();
+            tpConsultaCidade = new TabPage();
             panel3 = new Panel();
             textBox1 = new TextBox();
             btnPesquisarCidade = new Button();
@@ -38,59 +37,52 @@
             btnNovoCidade = new Button();
             btnVisualizarCidade = new Button();
             panel1 = new Panel();
-            dataGridView1 = new DataGridView();
-            txtUFCidade = new TextBox();
-            label = new Label();
-            label1 = new Label();
-            txtNomeCidade = new TextBox();
+            gridCidades = new DataGridView();
             Column1 = new DataGridViewTextBoxColumn();
             Column2 = new DataGridViewTextBoxColumn();
             Column3 = new DataGridViewTextBoxColumn();
+            tpCadastroCidade = new TabPage();
+            panel4 = new Panel();
+            btnSalvarCidade = new Button();
+            btnCancelarCidade = new Button();
+            btnExcluirCidade = new Button();
+            txtNomeCidade = new TextBox();
+            txtUFCidade = new TextBox();
+            label = new Label();
+            label1 = new Label();
+            backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            tcCidade.SuspendLayout();
             tpConsultaCidade.SuspendLayout();
-            tabPage1.SuspendLayout();
-            tpCadastroCidade.SuspendLayout();
             panel3.SuspendLayout();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)gridCidades).BeginInit();
+            tpCadastroCidade.SuspendLayout();
+            panel4.SuspendLayout();
             SuspendLayout();
+            // 
+            // tcCidade
+            // 
+            tcCidade.Controls.Add(tpConsultaCidade);
+            tcCidade.Controls.Add(tpCadastroCidade);
+            tcCidade.Location = new Point(-3, -23);
+            tcCidade.Name = "tcCidade";
+            tcCidade.SelectedIndex = 0;
+            tcCidade.Size = new Size(678, 424);
+            tcCidade.TabIndex = 7;
             // 
             // tpConsultaCidade
             // 
-            tpConsultaCidade.Controls.Add(tabPage1);
-            tpConsultaCidade.Controls.Add(tpCadastroCidade);
-            tpConsultaCidade.Location = new Point(12, 12);
+            tpConsultaCidade.Controls.Add(panel3);
+            tpConsultaCidade.Controls.Add(panel2);
+            tpConsultaCidade.Controls.Add(panel1);
+            tpConsultaCidade.Location = new Point(4, 24);
             tpConsultaCidade.Name = "tpConsultaCidade";
-            tpConsultaCidade.SelectedIndex = 0;
-            tpConsultaCidade.Size = new Size(663, 398);
-            tpConsultaCidade.TabIndex = 7;
-            // 
-            // tabPage1
-            // 
-            tabPage1.Controls.Add(panel3);
-            tabPage1.Controls.Add(panel2);
-            tabPage1.Controls.Add(panel1);
-            tabPage1.Location = new Point(4, 24);
-            tabPage1.Name = "tabPage1";
-            tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(655, 370);
-            tabPage1.TabIndex = 0;
-            tabPage1.Text = "Consulta";
-            tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // tpCadastroCidade
-            // 
-            tpCadastroCidade.Controls.Add(txtNomeCidade);
-            tpCadastroCidade.Controls.Add(txtUFCidade);
-            tpCadastroCidade.Controls.Add(label);
-            tpCadastroCidade.Controls.Add(label1);
-            tpCadastroCidade.Location = new Point(4, 24);
-            tpCadastroCidade.Name = "tpCadastroCidade";
-            tpCadastroCidade.Padding = new Padding(3);
-            tpCadastroCidade.Size = new Size(655, 370);
-            tpCadastroCidade.TabIndex = 1;
-            tpCadastroCidade.Text = "Cadastro";
-            tpCadastroCidade.UseVisualStyleBackColor = true;
+            tpConsultaCidade.Padding = new Padding(3);
+            tpConsultaCidade.Size = new Size(670, 396);
+            tpConsultaCidade.TabIndex = 0;
+            tpConsultaCidade.Text = "Consulta";
+            tpConsultaCidade.UseVisualStyleBackColor = true;
             // 
             // panel3
             // 
@@ -100,7 +92,6 @@
             panel3.Name = "panel3";
             panel3.Size = new Size(641, 29);
             panel3.TabIndex = 7;
-            panel3.Paint += panel3_Paint;
             // 
             // textBox1
             // 
@@ -143,6 +134,7 @@
             btnNovoCidade.Text = "&Novo";
             btnNovoCidade.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnNovoCidade.UseVisualStyleBackColor = true;
+            btnNovoCidade.Click += btnNovoCidade_Click;
             // 
             // btnVisualizarCidade
             // 
@@ -155,26 +147,122 @@
             btnVisualizarCidade.Text = "&Visualizar";
             btnVisualizarCidade.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnVisualizarCidade.UseVisualStyleBackColor = true;
+            btnVisualizarCidade.Click += btnVisualizarCidade_Click;
             // 
             // panel1
             // 
-            panel1.Controls.Add(dataGridView1);
+            panel1.Controls.Add(gridCidades);
             panel1.Location = new Point(6, 41);
             panel1.Name = "panel1";
             panel1.Size = new Size(641, 287);
             panel1.TabIndex = 8;
             // 
-            // dataGridView1
+            // gridCidades
             // 
-            dataGridView1.AllowUserToAddRows = false;
-            dataGridView1.AllowUserToDeleteRows = false;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3 });
-            dataGridView1.Dock = DockStyle.Fill;
-            dataGridView1.Location = new Point(0, 0);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(641, 287);
-            dataGridView1.TabIndex = 4;
+            gridCidades.AllowUserToAddRows = false;
+            gridCidades.AllowUserToDeleteRows = false;
+            gridCidades.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            gridCidades.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3 });
+            gridCidades.Dock = DockStyle.Fill;
+            gridCidades.Location = new Point(0, 0);
+            gridCidades.Name = "gridCidades";
+            gridCidades.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            gridCidades.Size = new Size(641, 287);
+            gridCidades.TabIndex = 4;
+            // 
+            // Column1
+            // 
+            Column1.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            Column1.HeaderText = "Id";
+            Column1.Name = "Column1";
+            Column1.Width = 42;
+            // 
+            // Column2
+            // 
+            Column2.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Column2.HeaderText = "Cidade";
+            Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            Column3.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Column3.HeaderText = "UF";
+            Column3.Name = "Column3";
+            // 
+            // tpCadastroCidade
+            // 
+            tpCadastroCidade.Controls.Add(panel4);
+            tpCadastroCidade.Controls.Add(txtNomeCidade);
+            tpCadastroCidade.Controls.Add(txtUFCidade);
+            tpCadastroCidade.Controls.Add(label);
+            tpCadastroCidade.Controls.Add(label1);
+            tpCadastroCidade.Location = new Point(4, 24);
+            tpCadastroCidade.Name = "tpCadastroCidade";
+            tpCadastroCidade.Padding = new Padding(3);
+            tpCadastroCidade.Size = new Size(670, 396);
+            tpCadastroCidade.TabIndex = 1;
+            tpCadastroCidade.Text = "Cadastro";
+            tpCadastroCidade.UseVisualStyleBackColor = true;
+            // 
+            // panel4
+            // 
+            panel4.Controls.Add(btnSalvarCidade);
+            panel4.Controls.Add(btnCancelarCidade);
+            panel4.Controls.Add(btnExcluirCidade);
+            panel4.Location = new Point(0, 342);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(655, 25);
+            panel4.TabIndex = 26;
+            // 
+            // btnSalvarCidade
+            // 
+            btnSalvarCidade.Dock = DockStyle.Right;
+            btnSalvarCidade.Image = Properties.Resources.icons8_salvar_16;
+            btnSalvarCidade.ImageAlign = ContentAlignment.BottomLeft;
+            btnSalvarCidade.Location = new Point(513, 0);
+            btnSalvarCidade.Name = "btnSalvarCidade";
+            btnSalvarCidade.Size = new Size(64, 25);
+            btnSalvarCidade.TabIndex = 12;
+            btnSalvarCidade.Text = "&Salvar";
+            btnSalvarCidade.TextAlign = ContentAlignment.TopRight;
+            btnSalvarCidade.UseVisualStyleBackColor = true;
+            btnSalvarCidade.Click += btnSalvarCidade_Click;
+            // 
+            // btnCancelarCidade
+            // 
+            btnCancelarCidade.Dock = DockStyle.Right;
+            btnCancelarCidade.Image = Properties.Resources.icons8_cancelar_16;
+            btnCancelarCidade.ImageAlign = ContentAlignment.BottomLeft;
+            btnCancelarCidade.Location = new Point(577, 0);
+            btnCancelarCidade.Name = "btnCancelarCidade";
+            btnCancelarCidade.Size = new Size(78, 25);
+            btnCancelarCidade.TabIndex = 11;
+            btnCancelarCidade.Text = "&Cancelar";
+            btnCancelarCidade.TextAlign = ContentAlignment.TopRight;
+            btnCancelarCidade.UseVisualStyleBackColor = true;
+            btnCancelarCidade.Click += btnCancelarCidade_Click;
+            // 
+            // btnExcluirCidade
+            // 
+            btnExcluirCidade.Dock = DockStyle.Left;
+            btnExcluirCidade.Image = Properties.Resources.trash;
+            btnExcluirCidade.ImageAlign = ContentAlignment.BottomLeft;
+            btnExcluirCidade.Location = new Point(0, 0);
+            btnExcluirCidade.Name = "btnExcluirCidade";
+            btnExcluirCidade.Size = new Size(68, 25);
+            btnExcluirCidade.TabIndex = 9;
+            btnExcluirCidade.Text = "&Excluir";
+            btnExcluirCidade.TextAlign = ContentAlignment.TopRight;
+            btnExcluirCidade.UseVisualStyleBackColor = true;
+            btnExcluirCidade.Click += btnExcluirCidade_Click;
+            // 
+            // txtNomeCidade
+            // 
+            txtNomeCidade.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            txtNomeCidade.Location = new Point(10, 42);
+            txtNomeCidade.Name = "txtNomeCidade";
+            txtNomeCidade.Size = new Size(246, 23);
+            txtNomeCidade.TabIndex = 25;
             // 
             // txtUFCidade
             // 
@@ -202,57 +290,31 @@
             label1.TabIndex = 22;
             label1.Text = "Cidade";
             // 
-            // txtNomeCidade
-            // 
-            txtNomeCidade.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            txtNomeCidade.Location = new Point(10, 42);
-            txtNomeCidade.Name = "txtNomeCidade";
-            txtNomeCidade.Size = new Size(246, 23);
-            txtNomeCidade.TabIndex = 25;
-            // 
-            // Column1
-            // 
-            Column1.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            Column1.HeaderText = "Id";
-            Column1.Name = "Column1";
-            Column1.Width = 42;
-            // 
-            // Column2
-            // 
-            Column2.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Column2.HeaderText = "Cidade";
-            Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            Column3.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Column3.HeaderText = "UF";
-            Column3.Name = "Column3";
-            // 
             // CidadeForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(679, 420);
-            Controls.Add(tpConsultaCidade);
+            ClientSize = new Size(658, 376);
+            Controls.Add(tcCidade);
             Name = "CidadeForm";
             Text = "CidadeForm";
+            tcCidade.ResumeLayout(false);
             tpConsultaCidade.ResumeLayout(false);
-            tabPage1.ResumeLayout(false);
-            tpCadastroCidade.ResumeLayout(false);
-            tpCadastroCidade.PerformLayout();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
             panel2.ResumeLayout(false);
             panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)gridCidades).EndInit();
+            tpCadastroCidade.ResumeLayout(false);
+            tpCadastroCidade.PerformLayout();
+            panel4.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
 
-        private TabControl tpConsultaCidade;
-        private TabPage tabPage1;
+        private TabControl tcCidade;
+        private TabPage tpConsultaCidade;
         private Panel panel3;
         private TextBox textBox1;
         private Button btnPesquisarCidade;
@@ -260,7 +322,7 @@
         private Button btnNovoCidade;
         private Button btnVisualizarCidade;
         private Panel panel1;
-        private DataGridView dataGridView1;
+        private DataGridView gridCidades;
         private TabPage tpCadastroCidade;
         private DataGridViewTextBoxColumn Column1;
         private DataGridViewTextBoxColumn Column2;
@@ -269,5 +331,10 @@
         private TextBox txtUFCidade;
         private Label label;
         private Label label1;
+        private Panel panel4;
+        private Button btnExcluirCidade;
+        private Button btnCancelarCidade;
+        private Button btnSalvarCidade;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

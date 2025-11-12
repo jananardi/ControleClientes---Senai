@@ -3,32 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|c:\\users\\janaine_nardi\\desktop\\janainenardi\\controleclientess\\controleclientess\\repository\\gestaoordensrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|solutionrelative:controleclientess\\repository\\gestaoordensrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|c:\\users\\janaine_nardi\\desktop\\janainenardi\\controleclientess\\controleclientess\\forms\\ordemdeservicoform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|solutionrelative:controleclientess\\forms\\ordemdeservicoform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|c:\\users\\janaine_nardi\\desktop\\janainenardi\\controleclientess\\controleclientess\\models\\gestaoordens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|solutionrelative:controleclientess\\models\\gestaoordens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|c:\\users\\janaine_nardi\\desktop\\janainenardi\\controleclientess\\controleclientess\\forms\\menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|solutionrelative:controleclientess\\forms\\menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|c:\\users\\janaine_nardi\\desktop\\janainenardi\\controleclientess\\controleclientess\\appdbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|solutionrelative:controleclientess\\appdbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|c:\\users\\janaine_nardi\\desktop\\janainenardi\\controleclientess\\controleclientess\\forms\\menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|solutionrelative:controleclientess\\forms\\menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|c:\\users\\janaine_nardi\\desktop\\janainenardi\\controleclientess\\controleclientess\\repository\\cidaderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|solutionrelative:controleclientess\\repository\\cidaderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|c:\\users\\janaine_nardi\\desktop\\janainenardi\\controleclientess\\controleclientess\\forms\\ordemdeservicoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|solutionrelative:controleclientess\\forms\\ordemdeservicoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|c:\\users\\janaine_nardi\\desktop\\janainenardi\\controleclientess\\controleclientess\\forms\\ordemdeservicoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|solutionrelative:controleclientess\\forms\\ordemdeservicoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|c:\\users\\janaine_nardi\\desktop\\janainenardi\\controleclientess\\controleclientess\\forms\\clienteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|solutionrelative:controleclientess\\forms\\clienteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|c:\\users\\janaine_nardi\\desktop\\janainenardi\\controleclientess\\controleclientess\\forms\\clienteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|solutionrelative:controleclientess\\forms\\clienteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|c:\\users\\janaine_nardi\\desktop\\janainenardi\\controleclientess\\controleclientess\\repository\\ordemdeservicorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|solutionrelative:controleclientess\\repository\\ordemdeservicorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|c:\\users\\janaine_nardi\\desktop\\janainenardi\\controleclientess\\controleclientess\\models\\ordemdeservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|solutionrelative:controleclientess\\models\\ordemdeservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|c:\\users\\janaine_nardi\\desktop\\janainenardi\\controleclientess\\controleclientess\\repository\\servicorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|solutionrelative:controleclientess\\repository\\servicorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|c:\\users\\janaine_nardi\\desktop\\janainenardi\\controleclientess\\controleclientess\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|solutionrelative:controleclientess\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|c:\\users\\janaine_nardi\\desktop\\janainenardi\\controleclientess\\controleclientess\\appdbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|solutionrelative:controleclientess\\appdbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|c:\\users\\janaine_nardi\\desktop\\janainenardi\\controleclientess\\controleclientess\\models\\servico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|solutionrelative:controleclientess\\models\\servico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|c:\\users\\janaine_nardi\\desktop\\janainenardi\\controleclientess\\controleclientess\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73294F8F-9179-4BAF-A181-CEC131104756}|ControleClientess\\ControleClientess.csproj|solutionrelative:controleclientess\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,102 +58,164 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GestaoOrdens.cs",
-              "DocumentMoniker": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Models\\GestaoOrdens.cs",
-              "RelativeDocumentMoniker": "ControleClientess\\Models\\GestaoOrdens.cs",
-              "ToolTip": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Models\\GestaoOrdens.cs",
-              "RelativeToolTip": "ControleClientess\\Models\\GestaoOrdens.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Title": "MenuForm.cs",
+              "DocumentMoniker": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Forms\\MenuForm.cs",
+              "RelativeDocumentMoniker": "ControleClientess\\Forms\\MenuForm.cs",
+              "ToolTip": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Forms\\MenuForm.cs",
+              "RelativeToolTip": "ControleClientess\\Forms\\MenuForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T22:28:53.104Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GestaoOrdensRepository.cs",
-              "DocumentMoniker": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Repository\\GestaoOrdensRepository.cs",
-              "RelativeDocumentMoniker": "ControleClientess\\Repository\\GestaoOrdensRepository.cs",
-              "ToolTip": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Repository\\GestaoOrdensRepository.cs",
-              "RelativeToolTip": "ControleClientess\\Repository\\GestaoOrdensRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T22:25:00.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CidadeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Repository\\CidadeRepository.cs",
-              "RelativeDocumentMoniker": "ControleClientess\\Repository\\CidadeRepository.cs",
-              "ToolTip": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Repository\\CidadeRepository.cs",
-              "RelativeToolTip": "ControleClientess\\Repository\\CidadeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T22:17:23.919Z",
+              "WhenOpened": "2025-11-12T23:43:08.475Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\AppDbContext\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "ControleClientess\\AppDbContext\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\AppDbContext\\AppDbContext.cs",
-              "RelativeToolTip": "ControleClientess\\AppDbContext\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Title": "MenuForm.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Forms\\MenuForm.cs",
+              "RelativeDocumentMoniker": "ControleClientess\\Forms\\MenuForm.cs",
+              "ToolTip": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Forms\\MenuForm.cs [Projeto]",
+              "RelativeToolTip": "ControleClientess\\Forms\\MenuForm.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T22:16:33.283Z",
+              "WhenOpened": "2025-11-12T23:43:05.69Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrdemDeServicoForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Forms\\OrdemDeServicoForm.Designer.cs",
+              "RelativeDocumentMoniker": "ControleClientess\\Forms\\OrdemDeServicoForm.Designer.cs",
+              "ToolTip": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Forms\\OrdemDeServicoForm.Designer.cs",
+              "RelativeToolTip": "ControleClientess\\Forms\\OrdemDeServicoForm.Designer.cs",
+              "ViewState": "AgIAAEsBAAAAAAAAAAAcwFoBAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T23:42:36.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Servico.cs",
-              "DocumentMoniker": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Models\\Servico.cs",
-              "RelativeDocumentMoniker": "ControleClientess\\Models\\Servico.cs",
-              "ToolTip": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Models\\Servico.cs",
-              "RelativeToolTip": "ControleClientess\\Models\\Servico.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "OrdemDeServicoForm.cs",
+              "DocumentMoniker": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Forms\\OrdemDeServicoForm.cs",
+              "RelativeDocumentMoniker": "ControleClientess\\Forms\\OrdemDeServicoForm.cs",
+              "ToolTip": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Forms\\OrdemDeServicoForm.cs",
+              "RelativeToolTip": "ControleClientess\\Forms\\OrdemDeServicoForm.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAArwB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T22:14:56.613Z",
+              "WhenOpened": "2025-11-12T22:56:49.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ServicoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Repository\\ServicoRepository.cs",
-              "RelativeDocumentMoniker": "ControleClientess\\Repository\\ServicoRepository.cs",
-              "ToolTip": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Repository\\ServicoRepository.cs",
-              "RelativeToolTip": "ControleClientess\\Repository\\ServicoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
+              "Title": "OrdemDeServicoForm.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Forms\\OrdemDeServicoForm.cs",
+              "RelativeDocumentMoniker": "ControleClientess\\Forms\\OrdemDeServicoForm.cs",
+              "ToolTip": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Forms\\OrdemDeServicoForm.cs [Projeto]",
+              "RelativeToolTip": "ControleClientess\\Forms\\OrdemDeServicoForm.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T22:10:37.146Z",
+              "WhenOpened": "2025-11-12T22:51:17.64Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClienteForm.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Forms\\ClienteForm.cs",
+              "RelativeDocumentMoniker": "ControleClientess\\Forms\\ClienteForm.cs",
+              "ToolTip": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Forms\\ClienteForm.cs [Projeto]",
+              "RelativeToolTip": "ControleClientess\\Forms\\ClienteForm.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T22:39:27.691Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrdemDeServico.cs",
+              "DocumentMoniker": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Models\\OrdemDeServico.cs",
+              "RelativeDocumentMoniker": "ControleClientess\\Models\\OrdemDeServico.cs",
+              "ToolTip": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Models\\OrdemDeServico.cs",
+              "RelativeToolTip": "ControleClientess\\Models\\OrdemDeServico.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAcwCQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T22:47:39.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrdemDeServicoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Repository\\OrdemDeServicoRepository.cs",
+              "RelativeDocumentMoniker": "ControleClientess\\Repository\\OrdemDeServicoRepository.cs",
+              "ToolTip": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Repository\\OrdemDeServicoRepository.cs",
+              "RelativeToolTip": "ControleClientess\\Repository\\OrdemDeServicoRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowCEAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T22:58:06.151Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "ClienteForm.cs",
+              "DocumentMoniker": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Forms\\ClienteForm.cs",
+              "RelativeDocumentMoniker": "ControleClientess\\Forms\\ClienteForm.cs",
+              "ToolTip": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Forms\\ClienteForm.cs",
+              "RelativeToolTip": "ControleClientess\\Forms\\ClienteForm.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowEAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T22:56:59.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ServicoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Repository\\ServicoRepository.cs",
+              "RelativeDocumentMoniker": "ControleClientess\\Repository\\ServicoRepository.cs",
+              "ToolTip": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Repository\\ServicoRepository.cs",
+              "RelativeToolTip": "ControleClientess\\Repository\\ServicoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T22:58:04.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\AppDbContext\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ControleClientess\\AppDbContext\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\AppDbContext\\AppDbContext.cs",
+              "RelativeToolTip": "ControleClientess\\AppDbContext\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T22:59:12.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ClienteRepository.cs",
               "DocumentMoniker": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Repository\\ClienteRepository.cs",
               "RelativeDocumentMoniker": "ControleClientess\\Repository\\ClienteRepository.cs",
               "ToolTip": "C:\\Users\\janaine_nardi\\Desktop\\JanaineNardi\\ControleClientess\\ControleClientess\\Repository\\ClienteRepository.cs",
               "RelativeToolTip": "ControleClientess\\Repository\\ClienteRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T22:10:20.146Z",
+              "WhenOpened": "2025-11-12T21:38:08.37Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

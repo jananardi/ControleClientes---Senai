@@ -1,4 +1,7 @@
-﻿namespace ControleClientess
+﻿ using System.Collections.Generic;
+using System.Linq;
+
+namespace ControleClientess.Repository
 {
     public class ServicoRepository
     {
@@ -28,7 +31,7 @@
         }
         public void Atualizar(Servico servico)
         {
-            Servico servicoExistente = ObterPorId(servico.IdServico);
+            Servico servicoExistente = ObterPorId(servico.Id);
             if (servicoExistente != null)
             {
                 servicoExistente.Nome = servico.Nome;

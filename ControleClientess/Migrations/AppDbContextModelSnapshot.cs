@@ -40,7 +40,7 @@ namespace ControleClientess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Cidade");
+                    b.ToTable("Cidades");
                 });
 
             modelBuilder.Entity("ControleClientess.Cliente", b =>
@@ -79,6 +79,9 @@ namespace ControleClientess.Migrations
                     b.Property<int>("Genero")
                         .HasColumnType("integer");
 
+                    b.Property<int?>("GestaoOrdensId")
+                        .HasColumnType("integer");
+
                     b.Property<string>("Localidade")
                         .IsRequired()
                         .HasColumnType("text");
@@ -105,7 +108,112 @@ namespace ControleClientess.Migrations
 
                     b.HasIndex("ClienteId");
 
+                    b.HasIndex("GestaoOrdensId");
+
                     b.ToTable("Clientes");
+                });
+
+            modelBuilder.Entity("ControleClientess.GestaoOrdens", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("DataAbertura")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime>("DataConclusao")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int?>("IdCliente")
+                        .HasColumnType("integer");
+
+                    b.Property<int?>("IdGestao")
+                        .HasColumnType("integer");
+
+                    b.Property<int?>("IdServico")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("Quantidade")
+                        .HasColumnType("integer");
+
+                    b.Property<double>("Total")
+                        .HasColumnType("double precision");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("GestaoOrdens");
+                });
+
+            modelBuilder.Entity("ControleClientess.OrdemDeServico", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ClienteId")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("DataAbertura")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime?>("DataConclusao")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<decimal>("Quantidade")
+                        .HasColumnType("numeric");
+
+                    b.Property<int>("ServicoId")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ClienteId");
+
+                    b.HasIndex("ServicoId");
+
+                    b.ToTable("OrdensDeServico");
+                });
+
+            modelBuilder.Entity("ControleClientess.Servico", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Categoria")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Descricao")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int?>("GestaoOrdensId")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<decimal>("Preco")
+                        .HasColumnType("numeric");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("GestaoOrdensId");
+
+                    b.ToTable("Servicos");
                 });
 
             modelBuilder.Entity("ControleClientess.Cliente", b =>
@@ -118,7 +226,37 @@ namespace ControleClientess.Migrations
                         .WithMany("Clientes")
                         .HasForeignKey("ClienteId");
 
+                    b.HasOne("ControleClientess.GestaoOrdens", null)
+                        .WithMany("Clientes")
+                        .HasForeignKey("GestaoOrdensId");
+
                     b.Navigation("Cidade");
+                });
+
+            modelBuilder.Entity("ControleClientess.OrdemDeServico", b =>
+                {
+                    b.HasOne("ControleClientess.Cliente", "Cliente")
+                        .WithMany()
+                        .HasForeignKey("ClienteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ControleClientess.Servico", "Servico")
+                        .WithMany()
+                        .HasForeignKey("ServicoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Cliente");
+
+                    b.Navigation("Servico");
+                });
+
+            modelBuilder.Entity("ControleClientess.Servico", b =>
+                {
+                    b.HasOne("ControleClientess.GestaoOrdens", null)
+                        .WithMany("Servicos")
+                        .HasForeignKey("GestaoOrdensId");
                 });
 
             modelBuilder.Entity("ControleClientess.Cidade", b =>
@@ -129,6 +267,13 @@ namespace ControleClientess.Migrations
             modelBuilder.Entity("ControleClientess.Cliente", b =>
                 {
                     b.Navigation("Clientes");
+                });
+
+            modelBuilder.Entity("ControleClientess.GestaoOrdens", b =>
+                {
+                    b.Navigation("Clientes");
+
+                    b.Navigation("Servicos");
                 });
 #pragma warning restore 612, 618
         }

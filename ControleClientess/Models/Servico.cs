@@ -1,13 +1,22 @@
-﻿namespace ControleClientess
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace ControleClientess
 {
     public class Servico
     {
-        public int IdServico { get; set; }
-        public string Nome{ get; set; }
-        public string Descricao { get; set; }
-        public double Preco { get; set; }
-        public string Categoria { get; set; }
+            public int Id { get; set; }
 
-        public ICollection<Servico> Servicos { get; set; } = new List<Servico>();
+            [Required]
+            public string Nome { get; set; }
+
+            public string Descricao { get; set; }
+
+            [Required]
+            [Range(0, double.MaxValue)]
+            public decimal Preco { get; set; }
+
+            [Required]
+            public string Categoria { get; set; }
+        
     }
 }

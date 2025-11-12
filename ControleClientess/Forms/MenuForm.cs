@@ -45,5 +45,19 @@ namespace ControleClientess
             cidade.MdiParent = this;
             cidade.Show();
         }
+
+        private void serviçoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ServicoForm servico = new ServicoForm();
+            servico.MdiParent = this;
+            servico.Show();
+        }
+
+        private void relatóriosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RelatorioForm relatorio = new RelatorioForm();
+            relatorio.MdiParent = this;
+            relatorio.Show();
+        }
     }
 }

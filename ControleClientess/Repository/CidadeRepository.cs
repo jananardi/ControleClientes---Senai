@@ -1,6 +1,6 @@
 ﻿namespace ControleClientess
 {
-    class CidadeRepository
+    public class CidadeRepository
     {
         private readonly AppDbContext _context;
         public CidadeRepository()
