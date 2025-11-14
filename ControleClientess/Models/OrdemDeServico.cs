@@ -6,6 +6,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ControleClientess.Models;
 
 namespace ControleClientess
 {
@@ -21,8 +22,8 @@ namespace ControleClientess
         public int ServicoId { get; set; }
         public Servico Servico { get; set; }
 
-        [Range(0, 999.999)]
-        public decimal Quantidade { get; set; }
+        [Range(0, 999)]
+        public int Quantidade { get; set; }
 
         [DataType(DataType.Date)]
         public DateTime DataAbertura { get; set; }
@@ -33,7 +34,6 @@ namespace ControleClientess
         [Column(TypeName = "decimal(10,2)")]
         public decimal Total => Quantidade * (Servico?.Preco ?? 0);
 
-        [Required]
-        public string Status { get; set; } = "Aberta";
+        public StatusOs StatusOS { get; set; }
     }
 }

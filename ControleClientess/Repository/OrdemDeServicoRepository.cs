@@ -17,25 +17,28 @@ namespace ControleClientess.Repository
         }
         public List<OrdemDeServico> ListarTodos()
         {
-            return _context.OrdemDeServicos.ToList();
+            return _context.OrdemDeServicos
+               .Include(o => o.Servico)
+               .Include(o => o.Cliente)
+               .ToList();
         }
         public OrdemDeServico ObterPorId(int id)
         {
             return _context.OrdemDeServicos.Find(id);
         }
-        public void Atualizar(OrdemDeServico ordemDeServico)
+        public void Atualizar(OrdemDeServico ordem)
         {
-            OrdemDeServico ordemDeServicoExistente = ObterPorId(ordemDeServico.Id);
-            if (ordemDeServicoExistente != null)
+            var os = _context.OrdemDeServicos.Find(ordem.Id);
+
+            if (os != null)
             {
-                ordemDeServicoExistente.ClienteId = ordemDeServico.ClienteId;
-                ordemDeServicoExistente.Cliente = ordemDeServico.Cliente;
-                ordemDeServicoExistente.ServicoId = ordemDeServico.ServicoId;
-                ordemDeServicoExistente.Servico = ordemDeServico.Servico;
-                ordemDeServicoExistente.Quantidade = ordemDeServico.Quantidade;
-                ordemDeServicoExistente.DataAbertura = ordemDeServico.DataAbertura;
-                ordemDeServicoExistente.DataConclusao = ordemDeServico.DataConclusao;
-                ordemDeServicoExistente.Status = ordemDeServico.Status;
+                os.ClienteId = ordem.ClienteId;
+                os.ServicoId = ordem.ServicoId;
+                os.Quantidade = ordem.Quantidade;
+                os.DataAbertura = ordem.DataAbertura;
+                os.DataConclusao = ordem.DataConclusao;
+                os.StatusOS = ordem.StatusOS;
+
                 _context.SaveChanges();
             }
         }

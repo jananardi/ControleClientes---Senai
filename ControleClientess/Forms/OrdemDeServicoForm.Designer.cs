@@ -64,6 +64,8 @@
             txtQuantidadeGestao = new TextBox();
             label2 = new Label();
             label1 = new Label();
+            cmbStatus = new ComboBox();
+            label7 = new Label();
             tcGestao.SuspendLayout();
             tpConsultaGestao.SuspendLayout();
             panel3.SuspendLayout();
@@ -239,6 +241,8 @@
             // 
             // tpCadastroGestao
             // 
+            tpCadastroGestao.Controls.Add(label7);
+            tpCadastroGestao.Controls.Add(cmbStatus);
             tpCadastroGestao.Controls.Add(panel4);
             tpCadastroGestao.Controls.Add(txtTotalGestao);
             tpCadastroGestao.Controls.Add(label6);
@@ -314,7 +318,7 @@
             // 
             // txtTotalGestao
             // 
-            txtTotalGestao.Location = new Point(19, 201);
+            txtTotalGestao.Location = new Point(15, 144);
             txtTotalGestao.Name = "txtTotalGestao";
             txtTotalGestao.Size = new Size(242, 23);
             txtTotalGestao.TabIndex = 24;
@@ -322,7 +326,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(19, 183);
+            label6.Location = new Point(19, 126);
             label6.Name = "label6";
             label6.Size = new Size(33, 15);
             label6.TabIndex = 23;
@@ -335,6 +339,7 @@
             cmbServico.Name = "cmbServico";
             cmbServico.Size = new Size(144, 23);
             cmbServico.TabIndex = 22;
+            cmbServico.SelectedIndexChanged += cmbServico_SelectedIndexChanged;
             // 
             // cmbCliente
             // 
@@ -355,15 +360,15 @@
             // 
             // txtDataConclusaoGestao
             // 
-            txtDataConclusaoGestao.Location = new Point(19, 143);
+            txtDataConclusaoGestao.Location = new Point(288, 86);
             txtDataConclusaoGestao.Name = "txtDataConclusaoGestao";
-            txtDataConclusaoGestao.Size = new Size(242, 23);
+            txtDataConclusaoGestao.Size = new Size(144, 23);
             txtDataConclusaoGestao.TabIndex = 19;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(19, 125);
+            label4.Location = new Point(288, 68);
             label4.Name = "label4";
             label4.Size = new Size(90, 15);
             label4.TabIndex = 18;
@@ -410,6 +415,23 @@
             label1.Size = new Size(44, 15);
             label1.TabIndex = 12;
             label1.Text = "Cliente";
+            // 
+            // cmbStatus
+            // 
+            cmbStatus.FormattingEnabled = true;
+            cmbStatus.Location = new Point(288, 144);
+            cmbStatus.Name = "cmbStatus";
+            cmbStatus.Size = new Size(144, 23);
+            cmbStatus.TabIndex = 26;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(288, 126);
+            label7.Name = "label7";
+            label7.Size = new Size(39, 15);
+            label7.TabIndex = 27;
+            label7.Text = "Status";
             // 
             // OrdemDeServicoForm
             // 
@@ -470,5 +492,7 @@
         private Button btnExcluirGestao;
         private Button btnCancelarGestao;
         private Button btnSalvarGestao;
+        private Label label7;
+        private ComboBox cmbStatus;
     }
 }

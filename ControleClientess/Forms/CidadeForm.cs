@@ -92,5 +92,11 @@ namespace ControleClientess
                 tcCidade.SelectTab(tpConsultaCidade);
             }
         }
+
+        private void btnPesquisarCidade_Click(object sender, EventArgs e)
+        {
+            var cidades = _repository.ObterPorNome(txtPesquisarCidade.Text);
+            gridCidades.DataSource = cidades;
+        }
     }
 }

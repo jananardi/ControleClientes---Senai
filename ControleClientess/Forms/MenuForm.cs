@@ -53,11 +53,18 @@ namespace ControleClientess
             servico.Show();
         }
 
-        private void relatóriosToolStripMenuItem_Click(object sender, EventArgs e)
+        private void relatórioToolStripMenuItem_Click(object sender, EventArgs e)
         {
             RelatorioForm relatorio = new RelatorioForm();
             relatorio.MdiParent = this;
             relatorio.Show();
+        }
+
+        private void ordemdeServicoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OrdemDeServicoForm ordemDeServico = new OrdemDeServicoForm();
+            ordemDeServico.MdiParent = this;
+            ordemDeServico.Show();
         }
     }
 }

@@ -33,7 +33,8 @@
             clienteToolStripMenuItem = new ToolStripMenuItem();
             cidadeToolStripMenuItem = new ToolStripMenuItem();
             serviçoToolStripMenuItem = new ToolStripMenuItem();
-            relatóriosToolStripMenuItem = new ToolStripMenuItem();
+            ordemdeServicoToolStripMenuItem = new ToolStripMenuItem();
+            relatórioToolStripMenuItem = new ToolStripMenuItem();
             janelaToolStripMenuItem = new ToolStripMenuItem();
             cascataToolStripMenuItem = new ToolStripMenuItem();
             ladoALadoHorizontalToolStripMenuItem = new ToolStripMenuItem();
@@ -53,7 +54,7 @@
             // 
             // cadastroToolStripMenuItem
             // 
-            cadastroToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { clienteToolStripMenuItem, cidadeToolStripMenuItem, serviçoToolStripMenuItem, relatóriosToolStripMenuItem });
+            cadastroToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { clienteToolStripMenuItem, cidadeToolStripMenuItem, serviçoToolStripMenuItem, ordemdeServicoToolStripMenuItem, relatórioToolStripMenuItem });
             cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
             cadastroToolStripMenuItem.Size = new Size(66, 20);
             cadastroToolStripMenuItem.Text = "Cadastro";
@@ -79,12 +80,19 @@
             serviçoToolStripMenuItem.Text = "Serviço";
             serviçoToolStripMenuItem.Click += serviçoToolStripMenuItem_Click;
             // 
-            // relatóriosToolStripMenuItem
+            // ordemdeServicoToolStripMenuItem
             // 
-            relatóriosToolStripMenuItem.Name = "relatóriosToolStripMenuItem";
-            relatóriosToolStripMenuItem.Size = new Size(180, 22);
-            relatóriosToolStripMenuItem.Text = "Relatórios";
-            relatóriosToolStripMenuItem.Click += relatóriosToolStripMenuItem_Click;
+            ordemdeServicoToolStripMenuItem.Name = "ordemdeServicoToolStripMenuItem";
+            ordemdeServicoToolStripMenuItem.Size = new Size(180, 22);
+            ordemdeServicoToolStripMenuItem.Text = "Ordem de Serviço";
+            ordemdeServicoToolStripMenuItem.Click += ordemdeServicoToolStripMenuItem_Click;
+            // 
+            // relatórioToolStripMenuItem
+            // 
+            relatórioToolStripMenuItem.Name = "relatórioToolStripMenuItem";
+            relatórioToolStripMenuItem.Size = new Size(180, 22);
+            relatórioToolStripMenuItem.Text = "Relatório";
+            relatórioToolStripMenuItem.Click += relatórioToolStripMenuItem_Click;
             // 
             // janelaToolStripMenuItem
             // 
@@ -150,6 +158,7 @@
         private ToolStripMenuItem íconesMinimizadosToolStripMenuItem;
         private ToolStripMenuItem cidadeToolStripMenuItem;
         private ToolStripMenuItem serviçoToolStripMenuItem;
-        private ToolStripMenuItem relatóriosToolStripMenuItem;
+        private ToolStripMenuItem ordemdeServicoToolStripMenuItem;
+        private ToolStripMenuItem relatórioToolStripMenuItem;
     }
 }

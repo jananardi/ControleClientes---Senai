@@ -45,6 +45,7 @@
                 clienteExistente.Complemento = cliente.Complemento;
                 clienteExistente.Numero = cliente.Numero;
                 clienteExistente.Localidade = cliente.Localidade;
+                clienteExistente.CidadeId = cliente.CidadeId;
                 _context.SaveChanges();
             }
         }

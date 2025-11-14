@@ -37,13 +37,12 @@
             colEmail = new DataGridViewTextBoxColumn();
             pnlPesquisar = new Panel();
             btnPesquisar = new Button();
-            textBox1 = new TextBox();
+            txtPesquisarCliente = new TextBox();
             pnlBotao = new Panel();
             btnVisualizar = new Button();
             btnNovo = new Button();
             tpClienteCadastro = new TabPage();
             label12 = new Label();
-            txtUF = new TextBox();
             label11 = new Label();
             label10 = new Label();
             txtLogradouro = new TextBox();
@@ -70,6 +69,7 @@
             txtNome = new TextBox();
             label2 = new Label();
             label1 = new Label();
+            txtUF = new TextBox();
             tcCliente.SuspendLayout();
             tpClienteConsulta.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)gridClientes).BeginInit();
@@ -148,7 +148,7 @@
             // pnlPesquisar
             // 
             pnlPesquisar.Controls.Add(btnPesquisar);
-            pnlPesquisar.Controls.Add(textBox1);
+            pnlPesquisar.Controls.Add(txtPesquisarCliente);
             pnlPesquisar.Dock = DockStyle.Top;
             pnlPesquisar.Location = new Point(3, 3);
             pnlPesquisar.Name = "pnlPesquisar";
@@ -166,15 +166,16 @@
             btnPesquisar.Text = "&Pesquisar";
             btnPesquisar.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnPesquisar.UseVisualStyleBackColor = true;
+            btnPesquisar.Click += btnPesquisar_Click;
             // 
-            // textBox1
+            // txtPesquisarCliente
             // 
-            textBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            textBox1.Location = new Point(3, 3);
-            textBox1.Name = "textBox1";
-            textBox1.PlaceholderText = "Pesquisar por nome";
-            textBox1.Size = new Size(535, 23);
-            textBox1.TabIndex = 1;
+            txtPesquisarCliente.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            txtPesquisarCliente.Location = new Point(3, 3);
+            txtPesquisarCliente.Name = "txtPesquisarCliente";
+            txtPesquisarCliente.PlaceholderText = "Pesquisar por nome";
+            txtPesquisarCliente.Size = new Size(535, 23);
+            txtPesquisarCliente.TabIndex = 1;
             // 
             // pnlBotao
             // 
@@ -257,13 +258,6 @@
             label12.TabIndex = 31;
             label12.Text = "UF";
             // 
-            // txtUF
-            // 
-            txtUF.Location = new Point(509, 211);
-            txtUF.Name = "txtUF";
-            txtUF.Size = new Size(100, 23);
-            txtUF.TabIndex = 30;
-            // 
             // label11
             // 
             label11.AccessibleRole = AccessibleRole.Pane;
@@ -298,6 +292,7 @@
             cmbCidade.Name = "cmbCidade";
             cmbCidade.Size = new Size(171, 23);
             cmbCidade.TabIndex = 26;
+            cmbCidade.SelectedIndexChanged += cmbCidade_SelectedIndexChanged;
             // 
             // txtCEP
             // 
@@ -508,6 +503,13 @@
             label1.TabIndex = 0;
             label1.Text = "Nome";
             // 
+            // txtUF
+            // 
+            txtUF.Location = new Point(509, 211);
+            txtUF.Name = "txtUF";
+            txtUF.Size = new Size(100, 23);
+            txtUF.TabIndex = 30;
+            // 
             // ClienteForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -543,7 +545,7 @@
         private Button btnCancelar;
         private DataGridView gridClientes;
         private Button btnPesquisar;
-        private TextBox textBox1;
+        private TextBox txtPesquisarCliente;
         private Button btnVisualizar;
         private Button btnNovo;
         private Panel pnlBotao;
@@ -570,10 +572,10 @@
         private TextBox txtLogradouro;
         private ComboBox cmbCidade;
         private Label label12;
-        private TextBox txtUF;
         private Label label11;
         private DataGridViewTextBoxColumn colid;
         private DataGridViewTextBoxColumn colNome;
         private DataGridViewTextBoxColumn colEmail;
+        private TextBox txtUF;
     }
 }

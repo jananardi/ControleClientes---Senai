@@ -31,7 +31,7 @@
             tcCidade = new TabControl();
             tpConsultaCidade = new TabPage();
             panel3 = new Panel();
-            textBox1 = new TextBox();
+            txtPesquisarCidade = new TextBox();
             btnPesquisarCidade = new Button();
             panel2 = new Panel();
             btnNovoCidade = new Button();
@@ -86,21 +86,21 @@
             // 
             // panel3
             // 
-            panel3.Controls.Add(textBox1);
+            panel3.Controls.Add(txtPesquisarCidade);
             panel3.Controls.Add(btnPesquisarCidade);
             panel3.Location = new Point(6, 6);
             panel3.Name = "panel3";
             panel3.Size = new Size(641, 29);
             panel3.TabIndex = 7;
             // 
-            // textBox1
+            // txtPesquisarCidade
             // 
-            textBox1.Dock = DockStyle.Left;
-            textBox1.Location = new Point(0, 0);
-            textBox1.Name = "textBox1";
-            textBox1.PlaceholderText = "Pesquisar por nome";
-            textBox1.Size = new Size(535, 23);
-            textBox1.TabIndex = 3;
+            txtPesquisarCidade.Dock = DockStyle.Left;
+            txtPesquisarCidade.Location = new Point(0, 0);
+            txtPesquisarCidade.Name = "txtPesquisarCidade";
+            txtPesquisarCidade.PlaceholderText = "Pesquisar por nome";
+            txtPesquisarCidade.Size = new Size(535, 23);
+            txtPesquisarCidade.TabIndex = 3;
             // 
             // btnPesquisarCidade
             // 
@@ -113,6 +113,7 @@
             btnPesquisarCidade.Text = "&Pesquisar";
             btnPesquisarCidade.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnPesquisarCidade.UseVisualStyleBackColor = true;
+            btnPesquisarCidade.Click += btnPesquisarCidade_Click;
             // 
             // panel2
             // 
@@ -316,7 +317,7 @@
         private TabControl tcCidade;
         private TabPage tpConsultaCidade;
         private Panel panel3;
-        private TextBox textBox1;
+        private TextBox txtPesquisarCidade;
         private Button btnPesquisarCidade;
         private Panel panel2;
         private Button btnNovoCidade;

@@ -44,7 +44,7 @@ namespace ControleClientess
         private void CarregarCidades()
         {
             var cidadeRepository = new CidadeRepository();
-           // _cidades = cidadeRepository.ListarTodos();
+            _cidades = cidadeRepository.ListarTodos();
             cmbCidade.DataSource = _cidades;
             cmbCidade.DisplayMember = "Nome";
             cmbCidade.ValueMember = "Id";
@@ -95,22 +95,32 @@ namespace ControleClientess
                 return;
 
             var cliente = (Cliente)gridClientes.SelectedRows[0].DataBoundItem;
+
             txtNome.Text = cliente.Nome;
             txtEmail.Text = cliente.Email;
+
             cmbGenero.SelectedItem = itemGeneros.FirstOrDefault(
                 g => g.Valor == cliente.Genero);
+
             cmbEstadoCivil.SelectedItem = itemEstado.FirstOrDefault(
                 e => e.Valor == cliente.Estado);
+
             txtCEP.Text = cliente.CEP;
             txtComplemento.Text = cliente.Complemento;
             txtLogradouro.Text = cliente.Logradouro;
             txtBairro.Text = cliente.Bairro;
             txtNumero.Text = cliente.Numero;
-            var cidade = _cidades.FirstOrDefault(c => c.Id == cliente.Id);
-            cmbCidade.SelectedItem = cidade;
-            cmbCidade.SelectedItem = cliente.Localidade;
-            txtUF.Text = cliente.UF;
+
+            var cidade = _cidades.FirstOrDefault(c => c.Id == cliente.CidadeId);
+
+            if (cidade != null)
+            {
+                cmbCidade.SelectedItem = cidade;
+                txtUF.Text = cidade.UF;
+            }
+
             editingId = cliente.Id;
+
             tcCliente.SelectTab(tpClienteCadastro);
         }
 
@@ -198,8 +208,6 @@ namespace ControleClientess
                 txtLogradouro.Text = endereco.Logradouro;
                 txtNumero.Text = endereco.Numero;
                 txtComplemento.Text = endereco.Complemento;
-                cmbCidade.Text = endereco.Localidade;
-                txtUF.Text = endereco.UF;
                 txtNumero.Focus();
             }
             catch (HttpRequestException ex)
@@ -229,6 +237,20 @@ namespace ControleClientess
                 txtCEP.Text = cep.Insert(5, "-");
 
             txtCEP.SelectionStart = txtCEP.Text.Length;
+        }
+
+        private void btnPesquisar_Click(object sender, EventArgs e)
+        {
+            var clientes = _repository.ObterPorNome(txtPesquisarCliente.Text);
+            gridClientes.DataSource = clientes;
+        }
+
+        private void cmbCidade_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cmbCidade.SelectedItem is Cidade c)
+                txtUF.Text = c.UF;
+            else
+                txtUF.Clear();
         }
     }
 }
